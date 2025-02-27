@@ -9,9 +9,13 @@ This project enables two users to connect and have a real-time video call withou
 ✨ Features
 
 ✅ Peer-to-peer (P2P) video calling using WebRTC
+
 ✅ Socket.io for real-time signaling
+
 ✅ Uses Google STUN servers for NAT traversal
+
 ✅ Built with React (Vite) + TailwindCSS for frontend
+
 ✅ Uses Express.js + Socket.io for backend
 
 ---
