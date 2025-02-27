@@ -18,11 +18,13 @@ This project enables two users to connect and have a real-time video call withou
 
 📁 Project Structure
 
-webrtc-app/
+webRTC-project/
+
 │── client/ # Frontend (React + Vite + TailwindCSS)
+
 │── server/ # Backend (Node.js + Express + Socket.io)
+
 │── README.md # Documentation
-│── package.json # Root package file
 
 ---
 
@@ -31,12 +33,15 @@ webrtc-app/
 1️⃣ Clone the Repository
 
 git clone https://github.com/AsifpMulla123/webRTC-project.git
+
 cd webrtc-app
 
 2️⃣ Set Up the Backend (Server)
 
 cd server
+
 npm install
+
 node index.js
 
 Server will start on: http://localhost:5000
@@ -46,7 +51,9 @@ Server will start on: http://localhost:5000
 3️⃣ Set Up the Frontend (Client)
 
 cd ../client
+
 npm install
+
 npm run dev
 
 Frontend will start on: http://localhost:5173
